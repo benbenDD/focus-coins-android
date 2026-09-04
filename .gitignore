@@ -1,0 +1,24 @@
+# Android / Gradle build output
+.gradle/
+.gradle-apk/
+build/
+app/build/
+local.properties
+
+# Local tooling and device state
+.adb-user/
+.android-build/
+.build-support/
+.compile-check/
+work/
+*.keystore
+
+# Release binaries are uploaded as GitHub Release assets
+*.apk
+releases/**/*.zip
+
+# IDE and operating-system files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

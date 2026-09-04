@@ -1,0 +1,13 @@
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'com.focuscoins.app'
+    compileSdk 34
+    defaultConfig {
+        applicationId 'com.focuscoins.app'
+        minSdk 26
+        targetSdk 34
+        versionCode 19
+        versionName '0.4.2'
+    }
+}
